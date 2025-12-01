@@ -1,0 +1,58 @@
+[
+  {
+    "query_id": "q1",
+    "query": "What construction documents are available?",
+    "expected_answer_keywords": ["drawings", "wages", "construction", "documents"],
+    "expected_sources": ["attachment", "construction", "drawings"],
+    "category": "factual_qa"
+  },
+  {
+    "query_id": "q2",
+    "query": "Show me information about doors",
+    "expected_answer_keywords": ["door", "construction"],
+    "expected_sources": ["construction", "drawings"],
+    "category": "factual_qa"
+  },
+  {
+    "query_id": "q3",
+    "query": "What is in the construction drawings?",
+    "expected_answer_keywords": ["construction", "drawing", "plan"],
+    "expected_sources": ["construction", "drawings"],
+    "category": "factual_qa"
+  },
+  {
+    "query_id": "q4",
+    "query": "Tell me about the DBA wages document",
+    "expected_answer_keywords": ["wages", "dba"],
+    "expected_sources": ["wages"],
+    "category": "factual_qa"
+  },
+  {
+    "query_id": "q5",
+    "query": "Generate a door schedule",
+    "expected_answer_keywords": ["door"],
+    "expected_sources": ["construction"],
+    "category": "extraction"
+  },
+  {
+    "query_id": "q6",
+    "query": "What rooms or spaces are shown in the drawings?",
+    "expected_answer_keywords": ["room", "space"],
+    "expected_sources": ["construction", "drawings"],
+    "category": "multimodal"
+  },
+  {
+    "query_id": "q7",
+    "query": "Are there any floor plans or layouts available?",
+    "expected_answer_keywords": ["floor", "plan", "layout"],
+    "expected_sources": ["construction", "drawings"],
+    "category": "multimodal"
+  },
+  {
+    "query_id": "q8",
+    "query": "What specifications or requirements are mentioned?",
+    "expected_answer_keywords": ["specification", "requirement"],
+    "expected_sources": ["construction"],
+    "category": "factual_qa"
+  }
+]
