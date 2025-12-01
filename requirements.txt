@@ -1,0 +1,36 @@
+# FastAPI Backend
+fastapi
+uvicorn
+python-multipart
+pydantic
+pydantic-settings
+
+# Document Processing - PDF with Image Extraction
+PyMuPDF
+pdf2image
+Pillow
+pytesseract
+
+# Google Gemini API
+google-generativeai
+
+# Vector Store - FAISS
+faiss-cpu
+numpy
+
+# Embeddings and Text Processing
+sentence-transformers
+langchain
+langchain-community
+langchain-google-genai
+
+# Text Utilities
+tiktoken
+python-dotenv
+
+# HTTP Client
+httpx
+aiofiles
+
+# Logging
+loguru
