@@ -7,10 +7,13 @@ __pycache__/
 env/
 venv/
 ENV/
-pragentenv/
+constructenv/
 develop-eggs/
+tests/
+POSTMAN_TESTING_GUIDE.md
 downloads/
 eggs/
+data/
 .eggs/
 lib/
 lib64/
