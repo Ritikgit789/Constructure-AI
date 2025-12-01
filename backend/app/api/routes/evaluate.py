@@ -18,8 +18,8 @@ from app.models.schemas import TestQuery, EvaluationResult, EvaluationReport
 
 router = APIRouter()
 
-EVAL_QUERIES_PATH = "./evaluation/test_queries.json"
-EVAL_RESULTS_PATH = "./evaluation/latest_results.json"
+EVAL_QUERIES_PATH = "backend/evaluation/test_queries.json"
+EVAL_RESULTS_PATH = "backend/evaluation/latest_results.json"
 
 
 @router.post("/run", response_model=EvaluationReport)

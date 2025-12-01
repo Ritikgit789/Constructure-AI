@@ -93,7 +93,7 @@ class ChatResponse(BaseModel):
 
 class DoorEntry(BaseModel):
     """Single door schedule entry"""
-    mark: str
+    mark: Optional[str] = None
     location: Optional[str] = None
     width_mm: Optional[int] = None
     height_mm: Optional[int] = None
@@ -124,11 +124,10 @@ class RoomEntry(BaseModel):
 
 class RoomSchedule(BaseModel):
     """Complete room schedule extraction"""
-    entries: List[RoomEntry]
-    sources: List[Citation]
-    total_rooms: int
-    extraction_confidence: float
-
+    entries: Optional[List["RoomEntry"]] = None
+    sources: Optional[List["Citation"]] = None
+    total_rooms: Optional[int] = None
+    extraction_confidence: Optional[float] = None
 
 class ExtractionRequest(BaseModel):
     """Request for structured extraction"""
